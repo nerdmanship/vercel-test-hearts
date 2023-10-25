@@ -49,23 +49,23 @@ export default function Home() {
       <style jsx>{`
         @keyframes fly-heart-1 {
           0% { transform: translate(0, 0) scale(0); opacity: 1; }
-          100% { transform: translate(-100px, -100px) scale(1.1); opacity: 0; }
+          100% { transform: translate(-100px, -100px) scale(1.1) rotate(540deg); opacity: 0; }
         }
         @keyframes fly-heart-2 {
           0% { transform: translate(0, 0) scale(0); opacity: 1; }
-          100% { transform: translate(100px, -100px) scale(1); opacity: 0; }
+          100% { transform: translate(100px, -100px) scale(1) rotate(100deg); opacity: 0; }
         }
         @keyframes fly-heart-3 {
           0% { transform: translate(0, 0) scale(0); opacity: 1; }
-          100% { transform: translate(-100px, 100px) scale(1.2); opacity: 0; }
+          100% { transform: translate(-100px, 100px) scale(1.2) rotate(200deg); opacity: 0; }
         }
         @keyframes fly-heart-4 {
           0% { transform: translate(0, 0) scale(0); opacity: 1; }
-          100% { transform: translate(100px, 100px) scale(1.5); opacity: 0; }
+          100% { transform: translate(100px, 100px) scale(1.5) rotate(300deg); opacity: 0; }
         }
         @keyframes fly-heart-5 {
           0% { transform: translate(0, 0) scale(0); opacity: 1; }
-          100% { transform: translate(0, -100px) scale(1); opacity: 0; }
+          100% { transform: translate(0, -100px) scale(1) rotate(60deg); opacity: 0; }
         }
         @keyframes fly-heart-6 {
           0% { transform: translate(0, 0) scale(0) rotate(0); opacity: 1; }
@@ -89,7 +89,7 @@ export default function Home() {
         }
         @keyframes fly-heart-11 {
           0% { transform: translate(0, 0) scale(0) rotate(0); opacity: 1; }
-          100% { transform: translate(0, 150px) scale(1) rotate(-360deg); opacity: 0; }
+          100% { transform: translate(0, 150px) scale(2) rotate(-360deg); opacity: 0; }
         }
         @keyframes fly-heart-12 {
           0% { transform: translate(0, 0) scale(0) rotate(0); opacity: 1; }
@@ -101,7 +101,7 @@ export default function Home() {
         }
         @keyframes fly-heart-14 {
           0% { transform: translate(0, 0) scale(0) rotate(0); opacity: 1; }
-          100% { transform: translate(-50px, 150px) scale(1) rotate(90deg); opacity: 0; }
+          100% { transform: translate(-50px, 150px) scale(1.7) rotate(90deg); opacity: 0; }
         }
         @keyframes fly-heart-15 {
           0% { transform: translate(0, 0) scale(0) rotate(0); opacity: 1; }
